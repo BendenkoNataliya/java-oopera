@@ -15,8 +15,7 @@ public class Ballet extends  MusicalShow {
     void showActors() {
         System.out.println("Список актёров балета '" + title + "': ");
         for (Actor actor : listOfActors) {
-            System.out.println(actor.name + " " + actor.surname + " ("
-                    + actor.height + ")");
+            System.out.println(actor);
         }
     }
 

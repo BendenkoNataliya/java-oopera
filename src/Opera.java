@@ -15,8 +15,7 @@ public class Opera extends MusicalShow {
     void showActors() {
         System.out.println("Список актёров оперы '" + title + "': ");
         for (Actor actor : listOfActors) {
-            System.out.println(actor.name + " " + actor.surname + " ("
-                    + actor.height + ")");
+            System.out.println(actor);
         }
     }
 

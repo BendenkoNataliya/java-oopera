@@ -24,11 +24,6 @@ public class Actor extends Person {
 
     @Override
     public String toString() {
-        return "Actor{" +
-                "height=" + height +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", gender=" + gender +
-                '}';
+        return name + " " + surname + " (" + height + ")";
     }
 }
